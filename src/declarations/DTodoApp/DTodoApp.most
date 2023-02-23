@@ -1,0 +1,6 @@
+// Version: 1.0.0
+type List<T> = ?(T, List<T>);
+type Task = {task : Text};
+actor {
+  stable var task : ?(Task, List<Task>)
+};

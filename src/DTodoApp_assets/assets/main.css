@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #E384FF , #865DFF);
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5rem;
+}
+
+.container{
+    margin: 50px auto 50px auto;
+    width: 440px;
+    height: 800px;
+    background-color: #191825;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+#message{
+    position: absolute;
+    color: #FFA3FD;
+    left: 0; 
+    right: 0; 
+    top: 10%;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px; 
+}
+
+.container input{
+    margin: 30px 10px 30px 30px;
+    border-style: none;
+    background: transparent;
+    height: 30px;
+    color: #FFA3FD;
+}
+
+.btn{
+    margin: 30px 10px 30px 10px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 900;
+    font-size: 9px;
+    color: #191825;
+    background: linear-gradient(90deg, #e384ff 0%, #865dff 100%);
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgba(255, 163, 253, 0.16) 0px 3px 6px, rgba(255, 163, 253, 0.23) 0px 3px 6px;
+    border-radius: 24px;
+    transition : 300ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    color: #191825;
+    font-size: 12px;
+    transition : 300ms;
+    padding: 20px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #e384ff 0%, #865dff 100%);
+}
+
+.taskArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskArea h1{
+    margin-left: 30px;
+    color: #FFA3FD;
+    font-size: 27px;
+    display: inline;
+}
+
+.taskArea button{
+    box-shadow: rgba(255, 163, 253, 0.16) 0px 3px 6px, rgba(255, 163, 253, 0.23) 0px 3px 6px;
+    border-radius: 24px;
+    transition : 300ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #FFA3FD;
+    background: linear-gradient(90deg, #e384ff 0%, #865dff 100%);
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.taskArea button:hover{
+    color: #191825;
+    transition : 300ms;
+    width: 60px;
+    height: 60px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #e384ff 0%, #865dff 100%);
+}
+

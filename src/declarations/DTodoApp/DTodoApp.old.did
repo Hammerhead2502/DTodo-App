@@ -1,0 +1,6 @@
+type Task = record {task: text;};
+service : {
+  addTask: (text) -> (text);
+  deleteTask: (text) -> (text);
+  getAllTask: () -> (vec Task) query;
+}
